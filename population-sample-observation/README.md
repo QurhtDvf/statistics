@@ -44,7 +44,7 @@ $$\mu = \frac{1}{N} \sum_{i=1}^{N} x_i$$
 
 $$\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}$$
 
-このノートブックでは、J国の成人男性の身長を $\mu = 171\text{ cm}$、$\mu = 171\text{ cm}$、$\sigma = 6$cm、$N = 10{,}000\text{ 人}$の正規分布として設定しています。
+このノートブックでは、J国の成人男性の身長を $\mu = 171\text{ cm}, \sigma = 6cm, N = 10,000 $人の正規分布として設定しています。
 
 ![母集団の分布](image/download-5.png)
 
