@@ -1,4 +1,4 @@
-# 統計学の基礎：母集団・標本・観測値
+# 母集団・標本・観測値
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
