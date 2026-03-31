@@ -15,11 +15,8 @@
 
 1. [数理統計学とは何か](#1-数理統計学とは何か)
 2. [数理統計学の歴史](#2-数理統計学の歴史)
-3. [機械学習・LLMへの接続](#3-機械学習llmへの接続)
-4. [本リポジトリの教材内容](#4-本リポジトリの教材内容)
-5. [使い方](#5-使い方)
-6. [使用ライブラリ](#6-使用ライブラリ)
-7. [参考文献](#7-参考文献)
+3. [機械学習・LLMとの関係](#3-機械学習llmへの接続)
+4. [参考文献](#7-参考文献)
 
 ---
 
@@ -257,7 +254,7 @@ $$
 
 ---
 
-## 3. 機械学習・LLMへの接続
+## 3. 機械学習・LLMとの関係
 
 ### 3.1 対応関係の全体図
 
@@ -327,96 +324,7 @@ $$
 
 ---
 
-## 4. 本リポジトリの教材内容
-
-### 4.1 生成されるビジュアライゼーション
-
-#### 母集団の分布
-J国の成人男性の身長（N=10,000人、μ=171cm、σ=6cm）を正規分布で生成。
-
-![母集団の分布](images/population_distribution.png)
-
-#### 母集団 vs 標本の比較
-母集団から n=50 人を無作為抽出した標本と母集団全体を並べて比較。標本平均 $\bar{x}$ が母平均 $\mu$ に近いことを視覚的に確認できます。
-
-![母集団 vs 標本](images/population_vs_sample.png)
-
-#### 標本平均の標本分布（各1000回抽出）
-標本サイズ $n$ を 5, 10, 30, 50, 100, 500 と変えながら1000回の抽出を繰り返し、中心極限定理を視覚化します。
-
-![標本平均の分布](images/sampling_distribution.png)
-
-#### 標準誤差と母集団・標本・観測値の関係
-実測の SE と理論値 $\sigma/\sqrt{n}$ の一致を示すグラフと概念関係図。
-
-![標準誤差の関係](images/standard_error_relation.png)
-
-### 4.2 ファイル構成
-
-```
-.
-├── statistics_demo.ipynb        # Python版（NumPy / matplotlib / scipy）
-├── statistics_demo_R.ipynb      # R版（ggplot2 / dplyr / patchwork）
-├── images/
-│   ├── population_distribution.png
-│   ├── population_vs_sample.png
-│   ├── sampling_distribution.png
-│   └── standard_error_relation.png
-└── README.md
-```
-
----
-
-## 5. 使い方
-
-### Python版（Jupyter / Google Colab）
-
-```bash
-git clone https://github.com/yourname/statistics-demo.git
-cd statistics-demo
-pip install numpy matplotlib pandas scipy japanize-matplotlib
-jupyter notebook statistics_demo.ipynb
-```
-
-### R版（Jupyter / RStudio）
-
-```r
-install.packages(c("ggplot2", "dplyr", "tidyr", "patchwork"))
-```
-
-Jupyter で R カーネルを使う場合は `IRkernel` をインストールしてください。
-
-```r
-install.packages("IRkernel")
-IRkernel::installspec()
-```
-
----
-
-## 6. 使用ライブラリ
-
-**Python**
-
-| ライブラリ | 用途 |
-|------------|------|
-| `numpy` | 乱数生成・数値計算 |
-| `matplotlib` | グラフ描画 |
-| `scipy.stats` | 統計関数 |
-| `pandas` | データ集計 |
-| `japanize-matplotlib` | 日本語フォント対応 |
-
-**R**
-
-| パッケージ | 用途 |
-|------------|------|
-| `ggplot2` | グラフ描画 |
-| `dplyr` | データ操作 |
-| `tidyr` | データ整形 |
-| `patchwork` | 複数プロット結合 |
-
----
-
-## 7. 参考文献
+## 4. 参考文献
 
 **数理統計学の基礎**
 - 竹内啓 (2014)『数理統計学 — データ解析の方法』東洋経済新報社
