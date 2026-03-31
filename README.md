@@ -1,4 +1,4 @@
-# 📐 数理統計学：その本質・歴史・そして機械学習／LLMへの接続
+# 📐 数理統計学
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
@@ -7,7 +7,7 @@
 [![Google Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
 > **「データから真実を推論する」**——この一文が、数理統計学の存在意義をすべて言い表しています。  
-> 本ドキュメントでは、数理統計学とは何か、どのように発展してきたか、そして現代の機械学習・大規模言語モデル（LLM）とどう接続されているかを体系的に解説します。
+> 本ドキュメントでは、数理統計学とは何か、どのように発展してきたか、そして現代の機械学習・大規模言語モデル（LLM）とどう関連しているかを体系的に解説します。
 
 ---
 
