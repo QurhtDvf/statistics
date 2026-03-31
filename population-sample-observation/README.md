@@ -16,7 +16,7 @@
 .
 ├── statistics_demo.ipynb        # Python版（NumPy / matplotlib / scipy）
 ├── statistics_demo_R.ipynb      # R版（ggplot2 / dplyr / patchwork）
-├── images/
+├── image/
 │   ├── download-4.png
 │   ├── download-5.png
 │   ├── sampling_distribution.png
@@ -38,7 +38,7 @@ J国の成人男性の身長（N=10,000人、μ=171cm、σ=6cm）を正規分布
 ### 2. 母集団 vs 標本の比較
 母集団から n=50 人を無作為抽出した標本と、母集団全体を並べて比較します。標本平均（x̄）が母平均（μ）に近いことを視覚的に確認できます。
 
-![母集団 vs 標本](images/download-5.png)
+![母集団 vs 標本](image/download-5.png)
 
 ---
 
