@@ -193,7 +193,7 @@ $$
 D_{\text{KL}}(P \| Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}
 $$
 
-> 🔗 **LLMへの接続**：LLMの学習における**交差エントロピー損失（Cross-Entropy Loss）**は、
+> 🔗 **LLMへの接続**：LLMの学習における交差エントロピー損失（Cross-Entropy Loss）は、
 > $$\mathcal{L} = -\sum_{t} \log P_\theta(w_t \mid w_1, \ldots, w_{t-1})$$
 > であり、これはモデル分布 $P_\theta$ と真のデータ分布 $P_{\text{data}}$ の KLダイバージェンスを最小化することと等価です。LLMが「次の単語を予測する」訓練は、情報理論と統計学の直接の産物です。
 
