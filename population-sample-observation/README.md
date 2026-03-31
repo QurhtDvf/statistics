@@ -17,7 +17,7 @@
 ├── statistics_demo.ipynb        # Python版（NumPy / matplotlib / scipy）
 ├── statistics_demo_R.ipynb      # R版（ggplot2 / dplyr / patchwork）
 ├── images/
-│   ├── population_distribution.png
+│   ├── download-4.png
 │   ├── population_vs_sample.png
 │   ├── sampling_distribution.png
 │   └── standard_error_relation.png
@@ -31,7 +31,7 @@
 ### 1. 母集団の分布
 J国の成人男性の身長（N=10,000人、μ=171cm、σ=6cm）を正規分布で生成し、ヒストグラムとして可視化します。
 
-![母集団の分布](images/population_distribution.png)
+![母集団の分布](image/download-4.png)
 
 ---
 
