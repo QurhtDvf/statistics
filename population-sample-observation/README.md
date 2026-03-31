@@ -1,4 +1,4 @@
-# 📊 統計学の基礎：母集団・標本・観測値
+# 📊 母集団・標本・観測値
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
