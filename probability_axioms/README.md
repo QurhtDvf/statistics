@@ -114,7 +114,7 @@ $$P(A^c) = 1 - P(A)$$
 
 $$A \subseteq B \Rightarrow P(A) \leq P(B)$$
 
-**証明**：$B = A \cup (B \setminus A)$ かつ $A \cap (B \setminus A) = \emptyset$ より、$P(B) = P(A) + P(B \setminus A) \geq P(A)$（公理1より $P(B \setminus A) \geq 0$）。$\blacksquare$
+**証明**： $B = A \cup (B \setminus A)$ かつ $A \cap (B \setminus A) = \emptyset$ より、 $P(B) = P(A) + P(B \setminus A) \geq P(A)$（公理1より $P(B \setminus A) \geq 0$）。 $\blacksquare$
 
 **統計的応用**：検出力関数の単調性証明、信頼区間の包含関係の議論など。
 
