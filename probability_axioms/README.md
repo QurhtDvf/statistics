@@ -108,7 +108,7 @@ $$P(A^c) = 1 - P(A)$$
 
 **証明**： $A \cap A^c = \emptyset$ 、 $A \cup A^c = \Omega$ より公理3から $P(A) + P(A^c) = P(\Omega) = 1$。 $\blacksquare$
 
-**統計的応用**：仮説検定における $p$ 値の計算（$P(\text{棄却域}) = \alpha$）や、信頼区間（信頼係数 $1-\alpha$）の定義に直接使われる。
+**統計的応用**：仮説検定における $p$ 値の計算（ $P(\text{棄却域}) = \alpha$ ）や、信頼区間（信頼係数 $1-\alpha$）の定義に直接使われる。
 
 ### 3. 単調性（Monotonicity）
 
