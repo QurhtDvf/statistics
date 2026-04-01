@@ -152,7 +152,7 @@ $$\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i \xrightarrow{P} \mu \quad (n \to \inft
 
 $$P(\bar{X}_n \to \mu \text{ as } n \to \infty) = 1$$
 
-本デモでは、経験確率（相対頻度） $\hat{p}_n = \frac{1}{n}\sum_{i=1}^n \mathbf{1}_A(\omega_i)$
+本デモでは、経験確率（相対頻度） $\hat{p}_{n} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}_{A}(\omega_{i})$
  が真の確率 $P(A)$ に収束する様子を可視化することで、この定理を直感的に確認します。
 
 ---
