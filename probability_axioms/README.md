@@ -100,13 +100,13 @@ $$P(A_1 \cup A_2 \cup \cdots) = \sum_{i=1}^{\infty} P(A_i) \qquad (A_i \cap A_j 
 
 $$P(\emptyset) = 0$$
 
-**証明**： $\Omega \cap \emptyset = \emptyset$ より公理3から $P(\Omega \cup \emptyset) = P(\Omega) + P(\emptyset)$。左辺は $P(\Omega) = 1$（公理2）なので $P(\emptyset) = 0$。$\blacksquare$
+**証明**： $\Omega \cap \emptyset = \emptyset$ より公理3から $P(\Omega \cup \emptyset) = P(\Omega) + P(\emptyset)$。左辺は $P(\Omega) = 1$（公理2）なので $P(\emptyset) = 0$。 $\blacksquare$
 
 ### 2. 補事象の確率
 
 $$P(A^c) = 1 - P(A)$$
 
-**証明**：$A \cap A^c = \emptyset$、$A \cup A^c = \Omega$ より公理3から $P(A) + P(A^c) = P(\Omega) = 1$。$\blacksquare$
+**証明**： $A \cap A^c = \emptyset$ 、 $A \cup A^c = \Omega$ より公理3から $P(A) + P(A^c) = P(\Omega) = 1$。 $\blacksquare$
 
 **統計的応用**：仮説検定における $p$ 値の計算（$P(\text{棄却域}) = \alpha$）や、信頼区間（信頼係数 $1-\alpha$）の定義に直接使われる。
 
