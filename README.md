@@ -363,7 +363,7 @@ $$
 - 5.4 確率収束と分布収束
 
 **第6章 標本論**
-- 6.1 母集団と標本
+- 6.1 [母集団と標本](https://github.com/QurhtDvf/statistics/tree/main/population-sample-observation)
 - 6.2 統計量と標本分布
 - 6.3 標本平均・標本分散の分布
 - 6.4 順序統計量
