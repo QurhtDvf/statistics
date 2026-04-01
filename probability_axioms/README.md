@@ -54,7 +54,7 @@
 | $\mathcal{F}$ | $\sigma$-加法族（$\sigma$-algebra） | 確率を定義できる事象の集合族 |
 | $P$ | 確率測度（Probability Measure） | 各事象に確率を割り当てる関数 |
 
-> **サイコロの例**： $\Omega = \{1, 2, 3, 4, 5, 6\}$、$\mathcal{F} = 2^\Omega$ （べき集合）、 $P(\{k\}) = 1/6$
+> **サイコロの例**： $\Omega = \{1, 2, 3, 4, 5, 6\}$、 $\mathcal{F} = 2^\Omega$ （べき集合）、 $P(\{k\}) = 1/6$
 
 ### 公理1：非負性（Non-negativity）
 
