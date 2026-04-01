@@ -130,9 +130,9 @@ $$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
 
 **証明**： $A \cup B = A \cup (B \setminus A)$ （排反分解）より $P(A \cup B) = P(A) + P(B \setminus A)$。また $B = (A \cap B) \cup (B \setminus A)$ より $P(B \setminus A) = P(B) - P(A \cap B)$。代入すると公式が得られる。 $\blacksquare$
 
-**一般化**（$n$ 事象の包除原理）：
+**一般化**（ $n$ 事象の包除原理）：
 
-$$P(A_1 \cup \cdots \cup A_n) = \sum_i P(A_i) - \sum_{i<j} P(A_i \cap A_j) + \sum_{i<j<k} P(A_i \cap A_j \cap A_k) - \cdots $$
+$$ P(A_1 \cup \cdots \cup A_n) = \sum_i P(A_i) - \sum_{i<j} P(A_i \cap A_j) + \sum_{i<j<k} P(A_i \cap A_j \cap A_k) - \cdots $$
 
 **統計的応用**：ボンフェローニ不等式（多重検定補正）はこの包除原理の上界・下界として導出される。
 
