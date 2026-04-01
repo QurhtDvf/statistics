@@ -1,4 +1,4 @@
-# 確率の公理と性質 — インタラクティブデモ
+# 確率の公理と性質
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://colab.research.google.com/)
 [![R](https://img.shields.io/badge/R-4.3%2B-276DC3?logo=r)](https://colab.research.google.com/)
@@ -32,7 +32,7 @@
 
 ### コルモゴロフによる公理化（1933年）
 
-ソ連の数学者 **アンドレイ・コルモゴロフ（Andrei Kolmogorov）** は 1933 年の著書 *Grundbegriffe der Wahrscheinlichkeitsrechnung*（確率論の基礎概念）において、確率を**測度論（Measure Theory）**の枠組みで厳密に公理化しました。
+ソ連の数学者 **アンドレイ・コルモゴロフ（Andrei Kolmogorov）** は 1933 年の著書 *Grundbegriffe der Wahrscheinlichkeitsrechnung*（確率論の基礎概念）において、確率を **測度論（Measure Theory）** の枠組みで厳密に公理化しました。
 
 この公理化の意義は：
 
