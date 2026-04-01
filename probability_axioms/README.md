@@ -78,7 +78,7 @@ $$A \cap B = \emptyset \Rightarrow P(A \cup B) = P(A) + P(B)$$
 
 より一般的には、**可算加法性**（$\sigma$-加法性）として：
 
-$$A_1, A_2, \ldots \in \mathcal{F},\quad A_i \cap A_j = \emptyset \; (i \neq j) \;\Rightarrow\; P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$$
+$$A_1, A_2, \ldots \in \mathcal{F},\quad A_i \cap A_j = \emptyset \ (i \neq j) \Rightarrow P\Bigl(\bigcup_{i=1}^{\infty} A_i\Bigr) = \sum_{i=1}^{\infty} P(A_i)$$
 
 **直観的意味**：互いに排反な（同時に起こりえない）事象の確率は足し合わせることができる。
 
@@ -132,7 +132,7 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 **一般化**（$n$ 事象の包除原理）：
 
-$$P\left(\bigcup_{i=1}^n A_i\right) = \sum_i P(A_i) - \sum_{i<j} P(A_i \cap A_j) + \sum_{i<j<k} P(A_i \cap A_j \cap A_k) - \cdots$$
+$$P\Bigl(\bigcup_{i=1}^n A_i\Bigr) = \sum_i P(A_i) - \sum_{i<j} P(A_i \cap A_j) + \sum_{i<j<k} P(A_i \cap A_j \cap A_k) - \cdots$$
 
 **統計的応用**：ボンフェローニ不等式（多重検定補正）はこの包除原理の上界・下界として導出される。
 
@@ -146,7 +146,7 @@ $$\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i \xrightarrow{P} \mu \quad (n \to \inft
 
 **強大数の法則（Strong LLN、コルモゴロフ）**：さらに $E[|X_i|] < \infty$ ならば、
 
-$$P\left(\lim_{n\to\infty} \bar{X}_n = \mu\right) = 1$$
+$$P\Bigl(\lim_{n\to\infty} \bar{X}_n = \mu\Bigr) = 1$$
 
 本デモでは、経験確率（相対頻度）$\hat{p}_n = \frac{1}{n}\sum_{i=1}^n \mathbf{1}_A(\omega_i)$ が真の確率 $P(A)$ に収束する様子を可視化することで、この定理を直感的に確認します。
 
