@@ -327,7 +327,7 @@ $$
 ## 4. 構成
 **第1章 確率論の基礎**
 - 1.1 標本空間と事象
-- 1.2 確率の公理と性質
+- 1.2 [確率の公理と性質](https://github.com/QurhtDvf/statistics/tree/main/probability_axioms)
 - 1.3 条件付き確率と独立性
 - 1.4 ベイズの定理
 
