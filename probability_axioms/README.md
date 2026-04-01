@@ -122,11 +122,11 @@ $$A \subseteq B \Rightarrow P(A) \leq P(B)$$
 
 $$0 \leq P(A) \leq 1$$
 
-**証明**：$\emptyset \subseteq A \subseteq \Omega$ より単調性から $P(\emptyset) \leq P(A) \leq P(\Omega)$、すなわち $0 \leq P(A) \leq 1$。$\blacksquare$
+**証明**： $\emptyset \subseteq A \subseteq \Omega$ より単調性から $P(\emptyset) \leq P(A) \leq P(\Omega)$、すなわち $0 \leq P(A) \leq 1$。 $\blacksquare$
 
 ### 5. 包除原理（Inclusion-Exclusion Principle）
 
-$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+$$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
 
 **証明**：$A \cup B = A \cup (B \setminus A)$（排反分解）より $P(A \cup B) = P(A) + P(B \setminus A)$。また $B = (A \cap B) \cup (B \setminus A)$ より $P(B \setminus A) = P(B) - P(A \cap B)$。代入すると公式が得られる。$\blacksquare$
 
