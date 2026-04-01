@@ -1,4 +1,4 @@
-# 確率の公理と性質 — インタラクティブデモ
+# 確率の公理と性質
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://colab.research.google.com/)
 [![R](https://img.shields.io/badge/R-4.3%2B-276DC3?logo=r)](https://colab.research.google.com/)
