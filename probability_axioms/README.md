@@ -133,8 +133,9 @@ $$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
 **一般化**（ $n$ 事象の包除原理）：
 
 $$
-P(A_{1} \cup \cdots \cup A_{n}) = \sum_{i} P(A_{i}) - \sum_{i<j} P(A_{i} \cap A_{j}) + \sum_{i<j<k} P(A_{i} \cap A_{j} \cap A_{k}) - \cdots
+P(A_{1} \cup \cdots \cup A_{n}) = \sum_{i} P(A_{i}) - \sum_{i < j} P(A_{i} \cap A_{j}) + \sum_{i < j < k} P(A_{i} \cap A_{j} \cap A_{k}) - \cdots
 $$
+
 
 
 **統計的応用**：ボンフェローニ不等式（多重検定補正）はこの包除原理の上界・下界として導出される。
