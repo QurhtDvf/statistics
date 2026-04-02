@@ -147,7 +147,10 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 これは「$A$ と $B$ を単純に足すと $A \cap B$ が二重カウントされる」ことを補正したものです。$n$ 事象への一般化：
 
-$$P(A_1 \cup \cdots \cup A_n) = \sum_i P(A_i) - \sum_{i<j} P(A_i \cap A_j) + \sum_{i<j<k} P(A_i \cap A_j \cap A_k) - \cdots$$
+$$
+P(A_{1} \cup \cdots \cup A_{n}) = \sum_{i} P(A_{i}) - \sum_{i < j} P(A_{i} \cap A_{j}) + \sum_{i < j < k} P(A_{i} \cap A_{j} \cap A_{k}) - \cdots
+$$
+
 
 > **統計的応用**：多重検定における**ボンフェローニ不等式**はこの包除原理の上界として導出されます。
 
